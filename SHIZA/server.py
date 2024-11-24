@@ -10,7 +10,7 @@ clients = []
 client_numbers = {}
 
 def broadcast(message, exclude_client=None):
-    """Рассылает сообщение всем клиентам, кроме отправителя."""
+    """Рассылает сообщение всем клиентам, кроме отправителя.""" 
     for client in clients:
         if client != exclude_client:
             try:
